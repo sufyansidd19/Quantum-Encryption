@@ -8,7 +8,7 @@ It compares both methods in terms of **speed**, **efficiency**, and **security**
 ## ⚙️ App Preview
 
 <p align="center">
-  <img src="assets/preview.png" alt="Quantum Encryption App Preview" width="700"/>
+  <img src="encryption.png" alt="Quantum Encryption App Preview" width="700"/>
 </p>
 
 ---
@@ -43,12 +43,6 @@ It compares both methods in terms of **speed**, **efficiency**, and **security**
 - Real quantum key distribution (QKD) simulation  
 - Integration with real quantum hardware APIs (IBM Qiskit, etc.)  
 - Visualization dashboards for metric trends  
-
----
-
-## 📸 Screenshot Example
-
-![Quantum Encryption Demo](assets/demo.png)
 
 ---
 
