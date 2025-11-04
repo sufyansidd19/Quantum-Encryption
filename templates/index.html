@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AES File Encryption & Decryption</title>
+    <style>
+        body { font-family: Arial; text-align: center; margin-top: 50px; }
+        form { margin: 20px auto; padding: 20px; width: 400px; border: 1px solid #ddd; border-radius: 8px; }
+        input, button { margin: 8px; padding: 10px; width: 90%; }
+        button { background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h2>🔐 AES File Encryption & Decryption</h2>
+
+    <form action="/encrypt" method="post" enctype="multipart/form-data">
+        <h3>Encrypt a File</h3>
+        <input type="file" name="file" required><br>
+        <input type="text" name="key" placeholder="Enter AES key" required><br>
+        <button type="submit">Encrypt</button>
+    </form>
+
+    <form action="/decrypt" method="post" enctype="multipart/form-data">
+        <h3>Decrypt a File</h3>
+        <input type="file" name="file" required><br>
+        <input type="text" name="key" placeholder="Enter AES key (same as used for encryption)" required><br>
+        <button type="submit">Decrypt</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Ignore virtual environment
+Update/
+
+# Ignore uploaded files and other temp folders
+uploads/
+
+# Python cache & logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# VS Code or IDE settings
+.vscode/
+.idea/
