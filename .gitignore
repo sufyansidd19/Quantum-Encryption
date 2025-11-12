@@ -15,3 +15,5 @@ __pycache__/
 .idea/
 
 quantumenv/
+
+file_comparisons.db
